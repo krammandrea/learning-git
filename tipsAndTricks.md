@@ -11,6 +11,13 @@ git config color.ui true
 git log --graph --oneline --decorate --all
 ```
 
+- Use git bisect as the repair tool of last resort...when things really go wrong
+```
+git bisect start
+git bisect good  //this commit does not exhibit the issue
+git bisect bad   //this commit exhibits the issue
+```
+
 - I messed up stuff on my local, reset to what's on origin
 ```
 git fetch origin
@@ -52,13 +59,7 @@ git remote add upstream {Public Clone URL}
 git pull upstream master
 ```
 
-- Have a bug? Don't know which commit introduced that bug? Do a git bisect!!! This uses binary search to find the commit that introduced a bug.
-```
-git bisect start
-git bisect bad                 # Current version is bad
-git bisect good v2.6.13-rc2    # v2.6.13-rc2 is known to be good
-```
-
 - I want to clean untracked files
 ```
 git clean
+```
