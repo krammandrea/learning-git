@@ -36,4 +36,11 @@ git blame -M -C -C
 - I wanted to start a new branch 3 commits ago
 ```
 git branch newBranchName referenceOf3CommitsAgo
+```
 
+- Have a bug? Don't know which commit introduced that bug? Do a git bisect!!! This uses binary search to find the commit that introduced a bug.
+```
+git bisect start
+git bisect bad                 # Current version is bad
+git bisect good v2.6.13-rc2    # v2.6.13-rc2 is known to be good
+```
