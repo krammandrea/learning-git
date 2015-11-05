@@ -6,6 +6,10 @@ A: It depends on how you want to read your repositories history.
 Reading the commits? -> rebase  
 Reading the pull requests -> merge
 
+
 - Q:How do I delete a branch? :( Is it git branch -d branch-name?
 
 - Q:What is git fetch? What is the difference between pull and fetch?
+
+- Q:Have you heard of tig, the ASCII git repository browser http://jonas.nitro.dk/tig/ ?
+
