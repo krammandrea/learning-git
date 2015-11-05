@@ -37,3 +37,6 @@ git blame -M -C -C
 ```
 git branch newBranchName referenceOf3CommitsAgo
 
+- I want to clean untracked files
+```
+git clean
