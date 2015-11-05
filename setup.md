@@ -16,6 +16,13 @@ git config --global user.name "John Doe"
 git config --global user.email johndoe@example.com
 ```
 
+Important (optional) tip
+------------
+- Color is easier to read
+```
+git config color.ui true
+```
+
 Start a repository
 ------------
 ```
