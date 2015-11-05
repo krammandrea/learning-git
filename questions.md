@@ -10,3 +10,4 @@ Reading the pull requests -> merge
 
 - Q:Have you heard of tig, the ASCII git repository browser http://jonas.nitro.dk/tig/ ?
 
+- Q:What is git fetch? What is the difference between pull and fetch?
