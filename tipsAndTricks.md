@@ -1,11 +1,6 @@
 Tips and Tricks
 ===============
 
-- Color is easier to read
-```
-git config color.ui true
-```
-
 - All your branches and SHAs. In one line. With colors.
 ```
 git log --graph --oneline --decorate --all
