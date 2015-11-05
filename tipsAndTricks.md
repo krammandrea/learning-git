@@ -43,7 +43,13 @@ git blame -M -C -C
 
 - I wanted to start a new branch 3 commits ago
 ```
-git branch newBranchName referenceOf3CommitsAgo
+git branch newBranchName HEAD~3
+```
+
+or
+
+```
+git branch newBranchName HEAD^^^
 ```
 
 - I'm working on a fork, and want to merge in changes from the original repo.
