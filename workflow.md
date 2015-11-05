@@ -6,8 +6,8 @@ Get your own branch started
 ```
 git checkout master
 git pull
-git branch yourName/pickANameForYourChanges
-git checkout yourName/pickANameForYourChanges
+git branch your_name/pick_a_name_for_your_changes
+git checkout your_name/pick_a_name_for_your_changes
 ```
 
 Commit a change  
@@ -25,7 +25,7 @@ Save remotely
 ------------
 ```
 # set up the remote target once
-git branch --set-upstream yourName/pickANameForYourChanges origin/yourName/pickANameForYourChanges 
+git branch --set-upstream your_name/pick_a_name_for_your_changes origin/your_name/pick_a_name_for_your_changes 
 git push
 ```
 
@@ -35,11 +35,11 @@ before pushing to staging, update from master again
 ```
 git checkout master
 git pull
-git checkout yourName/pickANameForYourChanges
+git checkout your_name/pick_a_name_for_your_changes
 git rebase master
 git status    To check if there was a conflict
-git push -f origin yourName/pickANameForYourChanges
-git push -f origin yourName/pickANameForYourChanges:staging
+git push -f origin your_name/pick_a_name_for_your_changes
+git push -f origin your_name/pick_a_name_for_your_changes:staging
 ```
 - Check if build was successful on Jenkins
 - Review your work

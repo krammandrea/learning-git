@@ -16,7 +16,7 @@ Branches are used to develop features isolated from each other. The master branc
 
 Create branch and switch into with 
 ```
-git checkout -b yourName/pickANameForYourChanges
+git checkout -b your_name/pick_a_name_for_your_changes
 ```
 Switch branches with 
 ```
@@ -56,7 +56,7 @@ Pushing to remote
 ---------
 To send changes to remote repository, set up the remote target once
 ```
-git branch --set-upstream yourName/pickANameForYourChanges origin/yourName/pickANameForYourChanges 
+git branch --set-upstream your_name/pick_a_name_for_your_changes origin/your_name/pick_a_name_for_your_changes 
 ```
 ```
 git push
