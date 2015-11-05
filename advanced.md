@@ -26,6 +26,7 @@ Takes commits, turns them into patch files, and reapplies them on top of ontoABr
 ```
 git rebase ontoABranchOrShaOfYourChoosing
 ```
+
 **Never rebase a shared branch!**
 
 Rearrange, squash, rename commits
@@ -42,8 +43,8 @@ git commit --amend
 ```
 Careful, this rewrites the history, the same as rebase. 
 
-
-- Moving/renaming files and keeping their history
+Moving/renaming files and keeping their history
+-----------
 ```
 git mv originalFile targetFileAndLocation
 git rm fileYouNoLongerWantToTrack
@@ -56,7 +57,6 @@ Stashes all your work into a temporary commit in the stash and resets your worki
 git stash
 git stash pop
 ```
-
 
 Logs
 ----

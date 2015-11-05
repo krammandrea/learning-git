@@ -2,7 +2,6 @@ What happens in the background
 ==========================
 A Git repository is an on-disk data structure which stores metadata for a set of files and/or directory structure. Explore the .git directory for more insights. 
 
-
 The trees
 ---------
 The local repository consists of three "trees" maintained by git. 

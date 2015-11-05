@@ -18,7 +18,6 @@ git config --global user.email johndoe@example.com
 
 Start a repository
 ------------
-
 ```
 mkdir targetDirectory
 cd targetDirectory

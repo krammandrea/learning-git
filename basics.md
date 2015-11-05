@@ -6,7 +6,6 @@ Check on your status. It shows your
 - Changes not staged for commit
 - Untracked files
 - Instructions on how to get from one area to another
-
 ```
 git status
 ```
@@ -32,7 +31,6 @@ The staging area is an assembly point of files you want to commit. You can stage
 ```
 git add fileName
 ```
-
 See line by line changes you're about to commit
 ```
 git diff --staged
@@ -54,7 +52,6 @@ git pull --rebase
 ```
 ![](https://www.atlassian.com/pt/git/workflows/pageSections/00/contentFullWidth/0/tabs/00/pageSections/05/contentFullWidth/00/content_files/file1/document/git-workflow-svn-6.png)
 
-
 Pushing to remote
 ---------
 To send changes to remote repository, set up the remote target once
@@ -64,10 +61,9 @@ git branch --set-upstream yourName/pickANameForYourChanges origin/yourName/pickA
 ```
 git push
 ```
+![](https://www.atlassian.com/wac/landing/git/tutorial/remote-repositories/pageSections/00/contentFullWidth/0/tabs/03/pageSections/01/contentFullWidth/00/imageBinary/git-tutorial_repos-push.png)
 
 **Never force push to a shared branch!**
-
-![](https://www.atlassian.com/wac/landing/git/tutorial/remote-repositories/pageSections/00/contentFullWidth/0/tabs/03/pageSections/01/contentFullWidth/00/imageBinary/git-tutorial_repos-push.png)
 
 Merge conflict
 ----------
@@ -90,7 +86,6 @@ Logs
 ----
 - Use a client or
 - `git log --graph --oneline --decorate --all`
-
 
 Introduction to vi-commands
 --------------
