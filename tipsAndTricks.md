@@ -109,3 +109,10 @@ git bisect start
 git bisect bad                 # Current version is bad
 git bisect good v2.6.13-rc2    # v2.6.13-rc2 is known to be good
 ```
+- View git log like a graph
+```
+git log --pretty=oneline -n 20 --graph --abbrev-commit
+
+- View contributors histogram
+```
+git shortlog --summary --numbered
