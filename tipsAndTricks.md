@@ -52,6 +52,26 @@ git remote add upstream {Public Clone URL}
 git pull upstream master
 ```
 
+- Make `git pull --rebase` the default mode.
+
+On `~/.gitconfig`, add this:
+
+```
+[push]
+        default = simple
+```
+
+or use git to set the preference:
+
+```
+git config --global push.default simple
+```
+
+- Force-pushing to staging ;-)
+```
+git push -f origin HEAD:staging
+```
+
 - Have a bug? Don't know which commit introduced that bug? Do a git bisect!!! This uses binary search to find the commit that introduced a bug.
 ```
 git bisect start
