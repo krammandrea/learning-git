@@ -34,7 +34,7 @@ Deploy to staging
 before pushing to staging, update from master again
 ```
 git checkout master
-git pull
+git pull --rebase
 git checkout your_name/pick_a_name_for_your_changes
 git rebase master
 git status    To check if there was a conflict
