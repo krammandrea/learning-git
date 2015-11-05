@@ -36,4 +36,11 @@ git blame -M -C -C
 - I wanted to start a new branch 3 commits ago
 ```
 git branch newBranchName referenceOf3CommitsAgo
+```
 
+- Discover the "bad" commit when some aspect of your code changed
+```
+  - git bisect start
+  - git bisect good <revision1>
+  - git bisect bad <revision2>
+```
