@@ -91,7 +91,7 @@ Introduction to vi-commands
 --------------
 - 'esc' for command modus
 - 'i' for insert modus
-- 'esc' + 'dd' + 'y' to delete one line and paste it again
+- 'esc' + 'dd' + 'p' to delete one line and paste it again
 - 'esc' + ':wq' to save file and exit vi
 
 
