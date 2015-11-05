@@ -62,3 +62,17 @@ git bisect good v2.6.13-rc2    # v2.6.13-rc2 is known to be good
 - I want to clean untracked files
 ```
 git clean
+```
+
+- I'm working on a fork, and want to merge in changes from the original repo.
+```
+git remote add upstream {Public Clone URL}
+git pull upstream master
+```
+
+- Have a bug? Don't know which commit introduced that bug? Do a git bisect!!! This uses binary search to find the commit that introduced a bug.
+```
+git bisect start
+git bisect bad                 # Current version is bad
+git bisect good v2.6.13-rc2    # v2.6.13-rc2 is known to be good
+```
