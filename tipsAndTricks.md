@@ -23,6 +23,14 @@ git checkout targetBranch
 git cherry-pick commitSHA 
 ```
 
+- Git Tools - Stashing
+```
+git stash
+git stash list
+git stash apply
+```
+https://git-scm.com/book/en/v1/Git-Tools-Stashing
+
 - How many lines have changed in each file
 ```
 git log --stat
