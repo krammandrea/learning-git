@@ -37,3 +37,11 @@ git blame -M -C -C
 ```
 git branch newBranchName referenceOf3CommitsAgo
 
+- View git log like a graph
+```
+git log --pretty=oneline -n 20 --graph --abbrev-commit
+
+- View contributors histogram
+```
+git shortlog --summary --numbered
+
