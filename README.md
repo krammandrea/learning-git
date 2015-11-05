@@ -5,7 +5,7 @@ Basics
 ------
 [Getting Started](setup.md)  
 [First Commit](basics.md)  
-[Push to Remote]()
+[Background](background.md)
 
 Advanced
 --------
