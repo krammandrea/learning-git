@@ -7,3 +7,6 @@ Reading the commits? -> rebase
 Reading the pull requests -> merge
 
 - Q:How do I delete a branch? :( Is it git branch -d branch-name?
+
+- Q:Have you heard of tig, the ASCII git repository browser http://jonas.nitro.dk/tig/ ?
+
