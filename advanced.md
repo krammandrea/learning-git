@@ -61,6 +61,11 @@ git stash pop
 Logs
 ----
 ```
+git log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+# put this in your ~/.gitconfig:
+# [alias]
+#   hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+# --elliotc, 11/5/2015
 git log --graph
 git show reference
 git diff reference1 reference2 -- filelist
