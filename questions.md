@@ -5,3 +5,5 @@ Questions and answers
 A: It depends on how you want to read your repositories history.  
 Reading the commits? -> rebase  
 Reading the pull requests -> merge
+
+- Q:How do I delete a branch? :( Is it git branch -d branch-name?
