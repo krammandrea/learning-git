@@ -37,3 +37,18 @@ git blame -M -C -C
 ```
 git branch newBranchName referenceOf3CommitsAgo
 
+- Force-pushing to staging ;-)
+```
+git push -f origin HEAD:staging
+```
+
+- undo your WorkInProgress commit that you have temporarily stored code in
+```
+git reset HEAD^
+```
+
+- add new files to stash
+```
+git add ______;git stash
+```
+
