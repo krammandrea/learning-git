@@ -36,4 +36,10 @@ git blame -M -C -C
 - I wanted to start a new branch 3 commits ago
 ```
 git branch newBranchName referenceOf3CommitsAgo
+```
 
+- I'm working on a fork, and want to merge in changes from the original repo.
+```
+git remote add upstream {Public Clone URL}
+git pull upstream master
+```
