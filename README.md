@@ -3,23 +3,23 @@ Tech Talk: Git
 
 Basics
 ------
-[Getting Started](setup.md)  
-[First Commit](basics.md)  
+[Setting Up](setup.md)  
+[Basics](basics.md)  
 [Background](background.md)
 
 Advanced
 --------
-[Inspiration]()
+[Inspiration](advanced.md)
 
 Tips and Tricks
 ---------------
-[Useful scripts]() 
-[Favorite/Obscure/Interesting/Useful Commands]()
+[Useful scripts](scripts.md)  
+[Favorite/Obscure/Interesting/Useful Commands](tipsAndTricks.md)
 
 Questions & Answers
 --------------
-[Q & A]()
+[Q & A](questions.md)
 
 Team Workflow
 -------------
-[Workflow]()
+[Workflow](workflow.md)
