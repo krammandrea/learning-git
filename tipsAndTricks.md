@@ -36,4 +36,4 @@ git blame -M -C -C
 - I wanted to start a new branch 3 commits ago
 ```
 git branch newBranchName referenceOf3CommitsAgo
-
+```
