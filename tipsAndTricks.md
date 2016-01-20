@@ -30,8 +30,8 @@ git cherry-pick commitSHA
 git stash
 git stash list
 git stash apply
-```
 https://git-scm.com/book/en/v1/Git-Tools-Stashing
+```
 
 - How many lines have changed in each file
 ```
@@ -92,22 +92,12 @@ git bisect good v2.6.13-rc2    # v2.6.13-rc2 is known to be good
 git clean
 ```
 
-- I'm working on a fork, and want to merge in changes from the original repo.
-```
-git remote add upstream {Public Clone URL}
-git pull upstream master
-```
-
-- Have a bug? Don't know which commit introduced that bug? Do a git bisect!!! This uses binary search to find the commit that introduced a bug.
-```
-git bisect start
-git bisect bad                 # Current version is bad
-git bisect good v2.6.13-rc2    # v2.6.13-rc2 is known to be good
-```
 - View git log like a graph
 ```
 git log --pretty=oneline -n 20 --graph --abbrev-commit
+```
 
 - View contributors histogram
 ```
 git shortlog --summary --numbered
+```
